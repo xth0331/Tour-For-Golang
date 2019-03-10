@@ -6,7 +6,7 @@ import (
 	"golang.org/x/tour/wc"
 )
 
-func WordCount(s string) map[string]int {
+func wordCount(s string) map[string]int {
 	countMap := map[string]int{}
 
 	for _, word := range strings.Fields(s) {
@@ -16,5 +16,5 @@ func WordCount(s string) map[string]int {
 }
 
 func main() {
-	wc.Test(WordCount)
+	wc.Test(wordCount)
 }
