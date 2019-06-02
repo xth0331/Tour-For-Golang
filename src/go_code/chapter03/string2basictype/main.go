@@ -27,4 +27,9 @@ func main() {
 	var f1 float64
 	f1, _ = strconv.ParseFloat(str3, 64)
 	fmt.Printf("f1 type %T f1=%v\n", f1, f1)
+	// 注意: 默认转成一个值
+	var str4 string = "hello"
+	var n3 int64
+	n3, _ = strconv.ParseInt(str4, 10, 64)
+	fmt.Printf("n3 type %T n3=%v\n", n3, n3)
 }
