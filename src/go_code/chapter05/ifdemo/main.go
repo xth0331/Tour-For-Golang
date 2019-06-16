@@ -13,5 +13,3 @@ func main() {
 		fmt.Println("你年龄大于18...")
 	}
 }
-
-
