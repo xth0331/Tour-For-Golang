@@ -22,4 +22,13 @@ func main() {
 	if n3 > 10.0 && n4 < 20 {
 		fmt.Println(n3 + n4)
 	}
+
+	// 定义两个变量int32，判断两者的和，是否能被3又能被5整除，打印提示信息。
+	var n5 int32 = 10
+	var n6 int32 = 6
+	if (n5+n6)%3 == 0 && (n5+n6)%5 == 0 {
+		fmt.Println("yes")
+	} else {
+		fmt.Println("not")
+	}
 }
