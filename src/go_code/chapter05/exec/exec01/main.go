@@ -31,4 +31,12 @@ func main() {
 	} else {
 		fmt.Println("not")
 	}
+
+	// 判断一个年份是否为闰年： 能被4整除，但不能被100整除，或能被400整除。
+	var year int = 2020
+	if (year%4 == 0 && year%100 != 0) || year%100 == 0 {
+		fmt.Println(year, "是闰年。")
+	} else {
+		fmt.Println(year, "不是闰年。")
+	}
 }
