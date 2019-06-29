@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("请输入月份:")
 	fmt.Scanln(&month)
 
-	fmt.Println("年龄：")
+	fmt.Println("年龄：.")
 	fmt.Scanln(&age)
 
 	if month >= 4 && month <= 10 {
