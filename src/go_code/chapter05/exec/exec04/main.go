@@ -15,12 +15,12 @@ func main() {
 	fmt.Scanln(&age)
 
 	if month >= 4 && month <= 10 {
-		if age < 18 {
-			fmt.Println("旺季儿童半价票：30")
-		} else if age >= 18 && age <= 60 {
+		if age > 60 {
+			fmt.Println("旺季老人票：20")
+		} else if age >= 18 {
 			fmt.Println("旺季成人票：60")
 		} else {
-			fmt.Println("旺季老人票：20")
+			fmt.Println("旺季儿童票：20")
 		}
 	} else {
 		if age >= 18 && age <= 60 {
