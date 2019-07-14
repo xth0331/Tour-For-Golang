@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	for i := 1; i <= 100; {
+		if i%9 == 0 {
+			fmt.Println(i)
+		}
+		i++
+	}
+}
