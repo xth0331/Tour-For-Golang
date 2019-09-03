@@ -20,7 +20,7 @@ func main() {
 		if i == 0 {
 			fmt.Println("达到最大失败次数：请重新运行该程序！！！")
 		} else {
-			fmt.Printf("还有%d次机会。\n", i)
+			fmt.Printf("还有%v次机会。\n", i)
 		}
 	}
 }
